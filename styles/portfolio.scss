@@ -8,32 +8,128 @@ $c-red: #D13B3F;
 $c-sky: #6F9CB3;
 $c-pink: #F6E1E3;
 $c-font: #333;
+$transparent-color: rgba(51,51,51,.6);
+
 
 #section2 {
-  // height:100vh;
+  height:100%;
   width: 100vw;
   .yui-container {
-    margin-bottom: -5px;
-    img {
+    height: 200px;
+    width: 100%;
+    background: url('images/yui/yui-logo-min.png') no-repeat center;
+    background-size: cover;
+    .overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
       width: 100%;
+      background-color: $transparent-color;
+      .yui-btn {
+        // margin-top: 25px;
+        padding: 9px;
+        font-family: $font;
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        color: #fff;
+        border: 2px $c-red solid;
+        background: transparent;
+        z-index: 100;
+        opacity: 1;
+      }
     }
   }
   .kromo-container {
+    height: 200px;
+    width: 100%;
     margin-bottom: -5px;
-    img {
+    background: url('images/kromo/kromo-min.png') no-repeat center;
+    background-size: cover;
+    .overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
       width: 100%;
+      background-color: $transparent-color;
+      .yui-btn {
+        // margin-top: 25px;
+        padding: 9px;
+        font-family: $font;
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        color: #fff;
+        border: 2px $c-red solid;
+        background: transparent;
+        z-index: 100;
+        opacity: 1;
+      }
     }
   }
   .weather-container {
+    height: 200px;
+    width: 100%;
     margin-bottom: -5px;
-    img {
+    background: url('images/weather/weather.png') no-repeat center;
+    background-size: cover;
+    .overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
       width: 100%;
+      background-color: $transparent-color;
+      .yui-btn {
+        // margin-top: 25px;
+        padding: 9px;
+        font-family: $font;
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        color: #fff;
+        border: 2px $c-red solid;
+        background: transparent;
+        z-index: 100;
+        opacity: 1;
+      }
     }
   }
   .waves-container {
-    margin-bottom: -5px;
-    img {
+    height: 200px;
+    width: 100%;
+    background: url('images/waves/waves.png') no-repeat center;
+    background-size: cover;
+    .overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
       width: 100%;
+      background-color: $transparent-color;
+      .yui-btn {
+        // margin-top: 25px;
+        padding: 9px;
+        font-family: $font;
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        color: #fff;
+        border: 2px $c-red solid;
+        background: transparent;
+        z-index: 100;
+        opacity: 1;
+      }
     }
   }
     #load-screen {
@@ -43,7 +139,7 @@ $c-font: #333;
     flex-direction: row;
     flex-wrap: wrap;
     background: #000;
-    height: 25vh;
+    height: 45vh;
     width: 100%;
     top: 0px;
     overflow: hidden;
@@ -414,11 +510,59 @@ $c-font: #333;
       opacity: 0.0;}
       }
     }
+    .overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      height: 45vh;
+      width: 100%;
+      background-color: rgba(51, 51, 51, 0.5);
+      .yui-btn {
+        // margin-top: 25px;
+        padding: 9px;
+        font-family: $font;
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        color: #fff;
+        border: 2px $c-red solid;
+        background: transparent;
+        z-index: 100;
+        opacity: 1;
+      }
+    }
   }
   .parallax-container {
+    height: 200px;
+    width: 100%;
     margin-bottom: -5px;
-    img {
+    background: url('images/parallax/parallax.png') no-repeat center;
+    background-size: cover;
+    .overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
       width: 100%;
+      background-color: $transparent-color;
+      .yui-btn {
+        // margin-top: 25px;
+        padding: 9px;
+        font-family: $font;
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        color: #fff;
+        border: 2px $c-red solid;
+        background: transparent;
+        z-index: 100;
+        opacity: 1;
+      }
     }
   }
 }

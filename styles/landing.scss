@@ -16,7 +16,7 @@ $c-font: #333;
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background: url('images/sky-min.jpeg') no-repeat center;
+  background: url('images/sky-min.jpg') no-repeat center;
   background-size: cover;
   .landing-container {
     .landing-title-container {
@@ -51,6 +51,7 @@ $c-font: #333;
         text-align: center;
         color: $c-font;
         border: 2px $c-red solid;
+        cursor: pointer;
       }
     }
   }
