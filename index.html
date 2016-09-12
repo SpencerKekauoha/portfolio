@@ -13,111 +13,11 @@
   <body ng-controller="mainCtrl">
     <nav class="nav" nav-dir></nav>
     <main>
-      <section class="landing-section" id="section1">
-        <div class="landing-container">
-          <div class="landing-title-container">
-            <h1>Spencer Kekauoha</h1>
-            <h4>Web Developer &nbsp; &nbsp; Web Designer</h4>
-            <h2>View Portfolio</h2>
-          </div>
-        </div>
-      </section>
-      <section id="section2">
-        <div class="yui-container">
-          <img src="styles/images/yui/yui-logo-min.png" alt="" />
-        </div>
-        <div class="kromo-container">
-          <img src="styles/images/kromo/kromo.png" alt="" />
-        </div>
-        <div class="weather-container">
-          <img src="styles/images/weather/weather-min.png" alt="" />
-        </div>
-        <div class="waves-container">
-          <img src="styles/images/waves/waves.png" alt="" />
-        </div>
-        <div id="load-screen">
-          <div id="loading">
-            <div class="box" id="box-1"></div>
-            <div class="box" id="box-2"></div>
-            <div class="box" id="box-3"></div>
-            <div class="box" id="box-4"></div>
-            <div class="box" id="box-5"></div>
-            <div class="box" id="box-6"></div>
-            <div class="box" id="box-7"></div>
-            <div class="box" id="box-8"></div>
-            <div class="box" id="box-9"></div>
-            <div class="box" id="box-10"></div>
-            <div class="box" id="box-11"></div>
-            <div class="box" id="box-12"></div>
-            <div class="box" id="box-13"></div>
-            <div class="box" id="box-14"></div>
-            <div class="box" id="box-15"></div>
-            <div class="box" id="box-16"></div>
-          </div>
-        </div>
-        <div class="parallax-container">
-          <img src="styles/images/parallax/parallax.png" alt="" />
-        </div>
-      </section>
-      <section id="section3">
-        <div class="about-container">
-          <div class="about-info">
-            <img src="styles/images/spencer.jpg" alt="" />
-            <h4>Hi, I'm Spencer.</h4>
-            <hr class="about-hr">
-            <p>
-              I'm a Full-Stack Web Developer focusing on Front-End development and design.  I love the challenge of coding and figuring out best practices of web design.
-            </p>
-            <button type="button" class="about-tech-btn" data-toggle="modal" data-target="#myModal">Skills</button>
-            <div id="myModal" class="modal fade" role="dialog">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Known Technology</h4>
-                  </div>
-                  <div class="modal-body">
-                    <ul>
-                      <li>Angular</li>
-                      <li>Javascript</li>
-                      <li>HTML5</li>
-                      <li>CSS/SCSS</li>
-                      <li>jQuery</li>
-                      <li>NodeJS</li>
-                      <li>MongoDB</li>
-                      <li>PostgreSQL</li>
-                      <li>Responsive</li>
-                      <li>Gulp</li>
-                      <li>Git/Github</li>
-                      <li>Parallax</li>
-                      <li>React</li>
-                      <li>Adobe Design Programs</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="section4">
-        <div class="contact-container">
-          <div class="contact-info">
-            <h4>Contact</h4>
-            <hr class="contact-hr">
-            <h6>spkekauoha@gmail.com</h6>
-          </div>
-          <div class="contact-icon-container">
-            <a class="icon-link" href="https://github.com/SpencerKekauoha"><img src="styles/images/icons/git.png" alt="" /></a>
-            <a class="icon-link" href="https://www.linkedin.com/in/spencerkekauoha"><img src="styles/images/icons/linkedin.png" alt="" /></a>
-          </div>
-        </div>
-      </section>
-      <section id="section5">
-        <div class="footer-container">
-          <h3>Thank you for visiting</h3>
-        </div>
-      </section>
+      <landing-dir></landing-dir>
+      <portfolio-dir></portfolio-dir>
+      <about-dir></about-dir>
+      <contact-dir></contact-dir>
+      <footer-dir></footer-dir>
     </main>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
@@ -131,7 +31,13 @@
     <!-- Scripts -->
     <script src="app/app.js" charset="utf-8"></script>
     <script src="app/mainCtrl.js" charset="utf-8"></script>
+    <!-- Directives -->
     <script src="app/components/nav/navDir.js" charset="utf-8"></script>
     <script src="app/components/nav/scrollDir.js" charset="utf-8"></script>
+    <script src="app/components/landing/landingDir.js" charset="utf-8"></script>
+    <script src="app/components/portfolio/portfolioDir.js" charset="utf-8"></script>
+    <script src="app/components/about/aboutDir.js" charset="utf-8"></script>
+    <script src="app/components/contact/contactDir.js" charset="utf-8"></script>
+    <script src="app/components/footer/footerDir.js" charset="utf-8"></script>
   </body>
 </html>

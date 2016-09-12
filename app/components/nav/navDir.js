@@ -5,9 +5,7 @@ angular.module('port')
     restrict: 'A',
     templateUrl: 'app/components/nav/navTmpl.html',
     link: function(scope, element, attribute) {
-      console.log('loaded');
       $('#toggle-nav').on('click', function(){
-        console.log('here');
           $(this).toggleClass('active');
           $('#menu').toggleClass('open');
           $('main').toggleClass('hide');
