@@ -19,7 +19,7 @@ angular.module('port')
         };
 
         section3Btn.onclick = function() {
-          TweenLite.to(window, 1, {scrollTo:{y:"#section3", offsetY:0}});
+          TweenLite.to(window, 1, {scrollTo:{y:"#section3", offsetY:40}});
         };
 
         section4Btn.onclick = function() {
