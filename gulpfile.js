@@ -28,6 +28,7 @@ gulp.task('styles', function () {
 gulp.task('watch', function() {
   gulp.watch(paths.jsSource, ['js']);
   gulp.watch(paths.sassSource, ['styles']);
+  gulp.watch(paths.html, ['html']);
 });
 
 gulp.task('default', ['watch', 'js', 'styles']);
