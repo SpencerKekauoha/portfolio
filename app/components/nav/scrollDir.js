@@ -12,14 +12,15 @@ angular.module('port')
             horz1Btn = document.getElementById("horz1Btn"),
             horz2Btn = document.getElementById("horz2Btn"),
             horz3Btn = document.getElementById("horz3Btn"),
-            gridBtn = document.getElementById("gridBtn");
+            gridBtn = document.getElementById("gridBtn"),
+            landingImgBtn = document.getElementById("landingImgBtn");
 
         section1Btn.onclick = function() {
           TweenLite.to(window, 1, {scrollTo:{y:"#section1", offsetY:0}});
         };
 
         section2Btn.onclick = function() {
-          TweenLite.to(window, 1, {scrollTo:{y:"#section2", offsetY:0}});
+          TweenLite.to(window, 1, {scrollTo:{y:"#section-grid", offsetY:0}});
         };
 
         section3Btn.onclick = function() {
@@ -31,7 +32,7 @@ angular.module('port')
         };
 
         section5Btn.onclick = function() {
-          TweenLite.to(window, 1, {scrollTo:{y:"#section-grid", offsetY:0}});
+          TweenLite.to(window, 1, {scrollTo:{y:"#section2", offsetY:0}});
         };
 
         portBtn.onclick = function() {
@@ -51,6 +52,10 @@ angular.module('port')
         };
 
         horz1Btn.onclick = function() {
+          TweenLite.to(window, 1, {scrollTo:{y:"#section-grid", offsetY:0}});
+        };
+
+        landingImgBtn.onclick = function() {
           TweenLite.to(window, 1, {scrollTo:{y:"#section-grid", offsetY:0}});
         };
       }
