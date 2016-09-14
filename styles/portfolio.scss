@@ -634,7 +634,8 @@ $transparent-color: rgba(51,51,51,.6);
 .grid-item {
   float: left;
 }
-.grid-item:before {
+
+.grid-item:hover::before {
   // height: 100%;
   // width: 100%;
   // text-align: center;
@@ -645,7 +646,7 @@ $transparent-color: rgba(51,51,51,.6);
   // padding-bottom: 50%;
   // content: 'View Project';
   // font-family: $font;
-  // font-size: 10px;
+  // font-size: 20px;
   // font-weight: 700;
   // text-transform: uppercase;
   // letter-spacing: 3px;
@@ -657,8 +658,8 @@ $transparent-color: rgba(51,51,51,.6);
   max-width: 100%;
 }
 
-.grid-yui:hover {
-
+.grid-item img:hover{
+  opacity: .7;
 }
 
 .grid-kromo {
@@ -1086,5 +1087,7 @@ overflow: hidden;
   }
 }
 }
-
+#load-screen2:hover {
+  opacity: .7;
+}
 }
