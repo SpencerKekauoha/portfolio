@@ -4,12 +4,19 @@ angular.module('port')
   return {
     restrict: 'A',
     link: function(scope, element, attribute) {
-      $(document).ready(function(){
-        $('.grid').masonry({
-          itemSelector: '.grid-item',
-          columnWidth: 160
-        });
+        // external js: masonry.pkgd.js, imagesloaded.pkgd.js
+        // init Masonry
 
+        $('#section-grid').imagesLoaded(function(){
+        var $grid = $('.grid').masonry({
+          itemSelector: '.grid-item',
+          percentPosition: true,
+          columnWidth: '.grid-sizer'
+        });
+        // layout Isotope after each image loads
+        $grid.imagesLoaded().progress( function() {
+          $grid.masonry();
+        });
       });
     }
   };

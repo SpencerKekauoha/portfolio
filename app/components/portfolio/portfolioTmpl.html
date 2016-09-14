@@ -1,58 +1,45 @@
-<!-- <section id="section-grid">
-  <div class="grid" masonryDir>
-    <img class="grid-item" src="styles/images/yui/yui-logo-desktop.png" alt="" />
-    <img class="grid-item" src="styles/images/kromo/domo-vert.png" alt="" />
-    <img class="grid-item" src="styles/images/weather/weather.png" alt="" />
-    <img class="grid-item" src="styles/images/weather/weather.png" alt="" />
-    <img class="grid-item" src="styles/images/weather/weather.png" alt="" />
-    <img class="grid-item" src="styles/images/weather/weather.png" alt="" />
-
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item2"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item2"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item2"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item2"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item2"></div>
-  </div>
-</section> -->
-
 <section id="section-grid">
-  <div class="grid">
-    <img class="grid-item" src="styles/images/yui/yui-logo-desktop.png" alt="" />
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item--width2 grid-item--height2"></div>
-    <div class="grid-item grid-item--height3"></div>
-    <div class="grid-item grid-item--height2"></div>
-    <div class="grid-item grid-item--width3"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item--height2"></div>
-    <div class="grid-item grid-item--width2 grid-item--height3"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item--height2"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item--width2 grid-item--height2"></div>
-    <div class="grid-item grid-item--width2"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item--height2"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item--height3"></div>
-    <div class="grid-item grid-item--height2"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item"></div>
-    <div class="grid-item grid-item--height2"></div>
+  <div class="grid" masonry-dir>
+    <div class="grid-sizer"></div>
+    <div class="grid-item">
+      <img class="grid-yui" src="styles/images/yui/yui-logo-desktop.png" data-toggle="modal" data-target="#test-modal" />
+    </div>
+    <div class="grid-item">
+      <img class="grid-kromo" src="styles/images/kromo/kromo-min.png" />
+    </div>
+    <div class="grid-item">
+      <div id="load-screen2">
+        <div id="loading">
+          <div class="box" id="box-1"></div>
+          <div class="box" id="box-2"></div>
+          <div class="box" id="box-3"></div>
+          <div class="box" id="box-4"></div>
+          <div class="box" id="box-5"></div>
+          <div class="box" id="box-6"></div>
+          <div class="box" id="box-7"></div>
+          <div class="box" id="box-8"></div>
+          <div class="box" id="box-9"></div>
+          <div class="box" id="box-10"></div>
+          <div class="box" id="box-11"></div>
+          <div class="box" id="box-12"></div>
+          <div class="box" id="box-13"></div>
+          <div class="box" id="box-14"></div>
+          <div class="box" id="box-15"></div>
+          <div class="box" id="box-16"></div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img class="grid-weather" src="styles/images/weather/weather.png" />
+    </div>
+    <div class="grid-item">
+      <img class="grid-waves" src="styles/images/waves/waves.png" />
+    </div>
+    <div class="grid-item">
+      <img class="grid-parallax" src="styles/images/parallax/parallax.png" />
+    </div>
   </div>
 </section>
-
-
-
-
-
 <section id="section2">
   <div class="yui-container">
     <div class="overlay">
@@ -160,7 +147,7 @@
         <div class="modal-project-content">
           <div class="background-line">
             <img src="styles/images/kromo/kromo-min.png" alt="" />
-            <img src="styles/images/kromo/graphs-min.png" alt="" />
+            <img src="styles/images/kromo/graphs.png" alt="" />
             <img src="styles/images/kromo/cards-min.png" alt="" />
             <img src="styles/images/kromo/login-min.png" alt="" />
           </div>
@@ -290,6 +277,38 @@
 </section>
 <section class="parallax-modal-section">
   <div id="parallax-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Parallax Workshop</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            In this workshop, I built a demo on basic parallax elements.  As you scroll down, the cherry blossoms move off screen to reveal Lord Vader.
+          </p>
+        </div>
+        <div class="modal-project-content">
+          <div class="background-line">
+            <img src="styles/images/parallax/parallax.png" alt="" />
+          </div>
+        </div>
+        <div class="view-site-container">
+          <h2 class="view-site-btn"><a href="https://spencerkekauoha.github.io/lesson-parallax/">View Site</a></h2>
+        </div>
+        <div class="modal-project-links">
+          <a class="icon-link" href="https://github.com/SpencerKekauoha/lesson-parallax"><img src="styles/images/icons/git.png" alt="" /></a>
+          <a class="icon-link" href="https://www.linkedin.com/in/spencerkekauoha"><img src="styles/images/icons/linkedin.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="parallax-modal-section">
+  <div id="test-modal" class="modal fade" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">

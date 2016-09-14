@@ -114,13 +114,13 @@ $c-font: #333;
       height: 75%;
       width: 2px;
       margin-left: 50px;
-      background: white;
+      background: #000;
       position: fixed;
       .horizontal-1 {
         margin-left: -10px;
         height: 2px;
         width: 22px;
-        background: white;
+        background: #000;
         .h1 {
           height: 30px;
           width: 25px;
@@ -129,14 +129,14 @@ $c-font: #333;
         }
       }
       .horizontal-1:hover {
-        background: #000;
+        background: $c-red;
         cursor: crosshair;
       }
       .horizontal-2 {
         margin-left: -10px;
         height: 2px;
         width: 22px;
-        background: white;
+        background: #000;
         .h1 {
           height: 30px;
           width: 25px;
@@ -145,14 +145,14 @@ $c-font: #333;
         }
       }
       .horizontal-2:hover {
-        background: #000;
+        background: $c-red;
         cursor: crosshair;
       }
       .horizontal-3 {
         margin-left: -10px;
         height: 2px;
         width: 22px;
-        background: white;
+        background: #000;
         .h1 {
           height: 30px;
           width: 25px;
@@ -161,14 +161,14 @@ $c-font: #333;
         }
       }
       .horizontal-3:hover {
-        background: #000;
+        background: $c-red;
         cursor: crosshair;
       }
       .horizontal-4 {
         margin-left: -10px;
         height: 2px;
         width: 22px;
-        background: white;
+        background: #000;
         .h1 {
           height: 30px;
           width: 25px;
@@ -177,7 +177,7 @@ $c-font: #333;
         }
       }
       .horizontal-4:hover {
-        background: #000;
+        background: $c-red;
         cursor: crosshair;
       }
     }
